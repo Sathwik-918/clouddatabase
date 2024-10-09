@@ -2,6 +2,7 @@ import mysql.connector
 from mysql.connector import Error
 import os
 
+
 def deploy_database_changes():
     try:
         # Fetch environment variables
